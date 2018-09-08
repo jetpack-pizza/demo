@@ -118,7 +118,19 @@ In the the **Dart Analysis** tool window you can:
 If the **Dart Analysis** tool window showed you a number of errors, you can use suggested quick-fixes. Place the cursor to the code fragment and press the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) (or use the intention action icon).
 
 ## Running unit tests
-You can create unit tests for your Flutter applications, and IntelliJ IDEA will offer a simple way to run them: find the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_test_run.png" alt="" width="16"/> icon in the gutter of your test file. Click the icon and choose whether you want to **run** or **debug** your test (alternatively you can righ-click in the **Editor** and select the required option). The IDE will provide you with the data on tests in the **Run** of **Debug** tool windows respectively.
+You can create unit tests for your Flutter applications, and IntelliJ IDEA offers a simple way to run them.
+
+1. Find the **Run** icons in the gutter of your test file.
+<p align="center">
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_test_file_gutter.png" alt="" width="400"/>
+</p>
+
+2. Click the icon and choose whether you want to **run** or **debug** your test (alternatively you can righ-click in the **Editor** and select the required option). 
+<p align="center">
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_test_run_debug.png" alt="" width="300"/>
+</p>
+
+3. The IDE will provide you with the data on tests in the **Run** or **Debug** tool windows respectively.
 
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_test_passed.png" alt="" width="800"/>
