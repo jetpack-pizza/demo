@@ -7,10 +7,10 @@ specifically for Dart and Flutter. Some of them run in background, like the Dart
 tools, for instance, include **Flutter Inspector** and **Observatory**. You can use them to test, analyze, and debug your application.
 
 ## Debug Mode
-To run your application in the Debug Mode, click the <img src="" alt="Debug" width="16"/> icon in the upper-right corner of the main 
+To run your application in the Debug Mode, click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_debug_icon.png" alt="Debug" width="16"/> icon in the upper-right corner of the main 
 IDE window. This mode includes all debugging information, enables Observatory and service extensions. Now you can use the **Debugger** to view the data on frames and variables. 
 <p align="center">
-<img src="" alt="Debugger" width="700"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_debugger.png" alt="Debugger" width="700"/>
 </p>
 
 ## Flutter Inspector
@@ -25,27 +25,27 @@ So, you have your application running and you want to inspect it, check the layo
 click **Flutter Inspector** on the right side of the main IDE window (alternatively, you can choose **View | Tool Windows | Flutter 
 Inspector**). Use the toolbar to interact with elements of an app and to switch between Inspector tabs:
 <p align="center">
-<img src="" width="600" alt="Inspector Toolbar"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_inspector_toolbar.png" width="600" alt="Inspector Toolbar"/>
 </p>
 
 ### Select Widget Mode
-To activate this mode click <img src="" alt="Select Widget Mode" width="18"/> button. Now you can select a widget that you are interested in, so when you interact with your device, you are not interacting with the application directly, but you can see which widget is responsible for a specific position on the screen. Now you can see the tree of widgets, the widget's position, and its properties. You can also quickly get to the source code of a particluar widget: select a widget, right-click it, and choose **Jump to Source** from the menu. Then the **Editor** will show you the code section where this widget is created. 
+To activate this mode click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_select_widget_mode.png" alt="Select Widget Mode" width="16"/> button. Now you can select a widget that you are interested in, so when you interact with your device, you are not interacting with the application directly, but you can see which widget is responsible for a specific position on the screen. Now you can see the tree of widgets, the widget's position, and its properties. You can also quickly get to the source code of a particluar widget: select a widget, right-click it, and choose **Jump to Source** from the menu. Then the **Editor** will show you the code section where this widget is created. 
 >**Tip:** hover over a property value to see the list of allowed values. When you perform a hot reload, the Inspector will update the widget properties accordingly.
 
-|<img src="" alt="Allowed values" width=""/>|<img src="" alt="Allowed values" width="590"/>|
+|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values.png" alt="Allowed values" width=""/>|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values_2.png" alt="Allowed values" width="590"/>|
 --- | ---
 
 ### Refresh Widget Info
-Click <img src="" alt="Refresh Widget Info" width="16"/> button to update the widget information that is displayed in Flutter Insptector. The widget tree will show the selected widget in case if you have scrolled the list to another position.  
+Click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_refresh.png" alt="Refresh Widget Info" width="16"/> button to update the widget information that is displayed in Flutter Insptector. The widget tree will show the selected widget in case if you have scrolled the list to another position.  
 
 ### Debug Paint
-Use the **Debug Paint** mode to understand how your widgets are laid out on the screen. Click <img src="" alt="Debug Paint" width="16"/> button to activate this mode.
+Use the **Debug Paint** mode to understand how your widgets are laid out on the screen. Click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_debug_paint.png" alt="Debug Paint" width="16"/> button to activate this mode.
 <p align="center">
-<img src="" alt="Debug Paint" width="300"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_debug_paint_mode.png" alt="Debug Paint" width="300"/>
 </p>
 
 ### Platform Mode
-Click <img src="" alt="Platform Mode" width="16"/> button to activate this mode and switch between Android and iOS platform rendering 
+Click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_platform.png" alt="Platform Mode" width="16"/> button to activate this mode and switch between Android and iOS platform rendering 
 to test platform-specific rendering without having to use two devices.
 
 ### Performance Overlay
