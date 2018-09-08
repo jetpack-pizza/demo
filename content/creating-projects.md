@@ -36,5 +36,4 @@ does not support the Flutter framework.
 
 ---
 
-**Next:** Take a look at the [features]() that IntelliJ IDEA provides Flutter developers with and figure out the ways you can speed up 
-the applications building.
+**Next:** Take a look at the [features](https://github.com/jetpack-pizza/demo/blob/master/content/working-with-source-code.md) that IntelliJ IDEA provides Flutter developers with and figure out the ways you can speed up the applications building.
