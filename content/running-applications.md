@@ -67,6 +67,12 @@ In addition, you can use **Terminal** in IntelliJ to run Flutter code using the 
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/5_terminal.png" alt="Allowed values" width="900"/>
 </p>
 
+## Running in Profile and Release modes
+To run your application in **Profile** or **Release** mode, choose the required mode from the **Run** menu.  
+<p align="center">
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/5_run_modes.png" alt="Run modes" width="400"/>
+</p>
+
 ---
 
 **Next:** Flutter and Dart plugins offer a number of [testing and debugging tools](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md) that will help you improve your application.  
