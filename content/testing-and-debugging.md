@@ -49,18 +49,18 @@ Click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_platform
 to test platform-specific rendering without having to use two devices.
 
 ### Performance Overlay
-The performance overlay displays the GPU & CPU threads performance graphs and allows you to analyze the current situation and improve the performance. Basically, if you are not astisfied with how smooth your application works, this tool should help. Click <img src="" alt="Performance Overlay" width="16"/> button to enable this feature. Now you can test your application and check the performance statistics on the screen.
+The performance overlay displays the GPU & CPU threads performance graphs and allows you to analyze the current situation and improve the performance. Basically, if you are not astisfied with how smooth your application works, this tool should help. Click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_performance_overlay.png" alt="Performance Overlay" width="16"/> button to enable this feature. Now you can test your application and check the performance statistics on the screen.
 <p align="center">
-<img src="" width="300"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_performance_mode.png" alt="Performance Overlay" width="300"/>
 </p>
 
 ## Timeline 
 Timeline is a tool that is useful for debugging performance issues: it allows you to capture the stack snapshot. This feature works in tandem with Observatory.
 
 ## Observatory
-Observatory is a debugging and profiling tool that provides profiling, examining the heap, and displaying code coverage. To open **Observatory**, you must run your application and click <img src="" alt="Observatory" width="16"/> button (it is available in the **Run** or **Flutter Inspector** tool windows). Use **Observatory** to look inside a running Dart virtual machine and to get the current statistics about memory leaks, check which lines of code have been executed, and so on. 
+Observatory is a debugging and profiling tool that provides profiling, examining the heap, and displaying code coverage. To open **Observatory**, you must run your application and click <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_observatory_button.png" alt="Observatory" width="16"/> button (it is available in the **Run** or **Flutter Inspector** tool windows). Use **Observatory** to look inside a running Dart virtual machine and to get the current statistics about memory leaks, check which lines of code have been executed, and so on. 
 <p align="center">
-<img src="" width=""/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_observatory.png" width="900"/>
 </p>
 
 ---
@@ -69,7 +69,7 @@ To see the rest of features provided by Flutter Inspector, click the gear-wheel 
 ### Baseline Painting
 Enable this feature to see the baselines paintings in your Flutter application: each RenderBox will paint a line at its baseline.
 <p align="center">
-<img src="" width="500"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_baseline.png" width="500"/>
 </p>
 
 ### Repaint Rainbow
@@ -87,14 +87,14 @@ Enabling this feature might be useful if your widget structure is deep. When you
 ### Highlight nodes displayed in both trees
 When this feature is enabled, the nodes that are displayed in two panes of Flutter Inspector will be highlighted. 
 <p align="center">
-<img src="" width="500"/>
+<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_highlight_nodes.png" width="500"/>
 </p>
 
 ## Render Tree Tab
 In case if there is a problem with rendering of a UI element, you can switch to the **Render Tree** tab. Note that the **Widgets** and **Render Tree** tabs are connected, which means that if you have selected a widget and switch between tabs, you will get the data about the same widget. 
 >**Tip:** If you have animations in your application, the Render Tree will display the values being changed on-the-fly. 
 
-|<img src="" alt="Allowed values" width="590"/>|<img src="" alt="Allowed values" width="590"/>|
+|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_widgets-render_tree_1.png" alt="Allowed values" width="590"/>|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_widgets-render_tree_2.png" alt="Allowed values" width="590"/>|
 --- | ---
 
 ## Dart Analysis Tool Window
@@ -104,10 +104,10 @@ This tool window allows to monitor issues that might arise during the project de
 In the the **Dart Analysis** tool window you can:
   * Sort the errors by severity or location.
   * Group errors by severity.
-<p align="center"><img src="" alt="" width="590"/></p>
+<p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_1.gif" alt="" width="590"/></p>
  
  * Use the **Dart Problems Filter** to filter out some error messages if necessary.
- <p align="center"><img src="" alt="" width="590"/></p>
+ <p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_2.gif" alt="" width="590"/></p>
  
   * Determine the precise location of an issue and navigate to it.
   * Identify the type of an issue (there can be errors, warnings, or hints).
