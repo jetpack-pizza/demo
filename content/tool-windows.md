@@ -51,4 +51,4 @@ bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis**
 
 ---
 
-**Next:** To start the development process you must [create a new project]().
+**Next:** To start the development process you must [create a new project](https://github.com/jetpack-pizza/demo/blob/master/content/creating-projects.md).
