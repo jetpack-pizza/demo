@@ -76,5 +76,5 @@ color schemes, open the **Settings dialog**, go to **Editor | Color Scheme** and
 
 ---
 
-**Next:** While working on your Flutter application you will interact with [tool windows](). Some of them will be familiar to developers 
+**Next:** While working on your Flutter application you will interact with [tool windows](https://github.com/jetpack-pizza/demo/blob/master/content/tool-windows.md). Some of them will be familiar to developers 
 who have already worked in IntelliJ IDEA, however there are new tool windows that are designed specifically for Flutter and Dart plugins.
