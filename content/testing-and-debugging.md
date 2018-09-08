@@ -115,4 +115,4 @@ In the the **Dart Analysis** tool window you can:
   * Restart the Dart Analysis Server.
 
 ## Quick-fixes
-If **Dart Analysis** tool window showed you a number of errors, you can use the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) shortcut to see the suggested quick-fixes. 
+If the **Dart Analysis** tool window showed you a number of errors, you can use suggested quick-fixes. Place the cursor to the code fragment and press the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) (or use the intention action icon).
