@@ -10,7 +10,7 @@ To install the plugins:
 1. Press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings** dialog and go to **Plugins**.
 2. Click the **Browse repositories** button at the bottom of the window to view the list of available plugins.
 3. Find the Flutter plugin using the search field and click **Install** on the right side of the window.
-4. Click **Yes** when IntelliJ IDEA suggests to install the Dart plugin.
+4. Click **Yes** when/if IntelliJ IDEA suggests to install the Dart plugin.
 5. Close the **Settings** dialog by clicking **OK**.
 6. Restart IntelliJ IDEA for the changes to take effect.
 
