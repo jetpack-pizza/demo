@@ -14,11 +14,9 @@ You will be prompted to fill in a number of fields in the **New Project** window
 5. Add a project description (*optional*).
 6. Select the type of a project you want to create. Project descriptions are presented below in the **New Project** window.
 7. Type your organization domain.
-8. Select the Android and iOS languages that you want to use in your project.
+8. Select Android and iOS languages that should be used in your cross-platform application.
 9. Select the **Create project offline** checkbox in case if the network connection is slow or you need to work offline.
-10. Additionally it is possible to expand the **More Settings** section at the bottom of the window to adjust module-related settings. 
-For instance, you can modify a module name, set up the module content root and module file parent directory, and select the preferable 
-project format.
+10. In addition you can expand the **More Settings** section at the bottom of the window to adjust module-related settings. For instance, you can modify a module name, set up the module content root and module file parent directory, and select the preferable project format.
 11. Click **Finish**.
 
 |<img src="https://github.com/jetpack-pizza/demo/blob/master/img/3_new_project_1.png" alt="Create New Project" width="590"/>|
@@ -28,8 +26,7 @@ project format.
 ## Creating a project containing existing source code files
 
 1. Click **Create New Project** from the **Welcome** window or choose **File | New | Project** on the main menu. 
-> **NOTE:** Do not use the **File | New | Project from existing sources** for your Flutter projects. Currently the Import Project feature
-does not support the Flutter framework.
+> **NOTE:** Do not choose **File | New | Project from existing sources** for your Flutter projects. Currently the Import Project feature does not support the Flutter framework.
 2. Select **Flutter** in the menu, make sure that the Flutter SDK path is specified correctly, and click **Next**.
 3. Specify the location of the directory that contains the required Flutter source code files.
 4. Click **Finish**. 
