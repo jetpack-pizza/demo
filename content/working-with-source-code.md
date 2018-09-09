@@ -7,21 +7,17 @@ working on Dart and Flutter code.
 ## Flutter Outline
 The core building blocks in Flutter applications are widgets (everything-is-a-widget concept), so developers work with these blocks a 
 lot. That is why it is important to deliver a powerful tool that can help to manage widgets efficiently and ensure that the structure 
-remains correct. To manage your widgets, use the Flutter Outline tool. To open it, click **Flutter Outline** on the right side of the 
-main IDE window (alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu). You can center you widgets, 
-add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform a required 
-action, click a corresponding button on the toolbar: 
+remains correct. To manage your widgets, use the **Flutter Outline** tool. To open it, click **Flutter Outline** on the right side of the main IDE window (alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu). You can center you widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform a required action, click a corresponding button on the toolbar: 
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_flutter_outline_toolbar.png" alt="Flutter Outline Toolbar" 
 width="590"/>
 </p>
 
 **Flutter Outline** allows you to both view the structure of your application and to modify it, if necessary. When you use this tool, 
-the IDE will make sure that the structure is correct, so you can avoid typos or forgotten symbols. For instance, you can center a widget 
-using the Outline tool: 
-
+the IDE makes sure that the structure is correct, so you can avoid typos or forgotten symbols. For instance, you can center a widget 
+using the **Flutter Outline** tool: 
 1. Select a widget.
-2. Click the **Center widget** button on the toolbar.
+2. Click the **Center widget** button on the toolbar. Note that if an action cannot be executed, the corresponding button is greyed out.
 3. Perform **Hot Reload** to see the changes.
 
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_center_widget.gif" alt="" width=""/>|
@@ -73,11 +69,7 @@ necessary.
 </p>
 
 ## Hot Reload
-**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot 
-reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon 
-(use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of 
-the main IDE window. Alternatively, you can press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which also results in displaying the 
-latest changes. 
+**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (also you can find this icon in the **Run** tool window). Alternatively, you can press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which also results in displaying the latest changes. 
 > Note: The first loading on a physical device might take some time.
 
 ## Reformatting your code
@@ -94,13 +86,10 @@ end of parameter lists in constructions that you want to keep the format. It wil
 of line breaks for the Flutter code.
 
 ## Opening a module in another IDE
-If you want to open a module to modify its code in another IDE, IntelliJ IDEA offers a smooth way to do it. Find the ``android`` folder
-in your **Project** tool window, right-click it, then choose **Flutter | Open Android module in Android Studio** 
-(the similar feature is available for the Xcode SDK as well).
+If you want to open a module to modify its code in another IDE, IntelliJ IDEA offers a smooth way to do it. Find the ``android`` folder in your **Project** tool window, right-click it, then choose **Flutter | Open Android module in Android Studio** (the similar feature is available for the Xcode SDK as well).
 
 ## Comments from the Dart Analysis server
-Curly brackets can be divided by many lines of code in your app, which makes it tricky to determine beginning and ending of a specific 
-invocation. The IDE displays special comments denoting classes and widgets.
+Curly brackets can be divided by many lines of code in your app, which makes it tricky to determine beginning and ending of a specific invocation. The IDE displays special comments denoting classes and widgets for user convenience.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_comments.png" alt="System Comments" width="500"/>
 </p>
@@ -140,4 +129,4 @@ Postfix Completion**.
 
 ---
 
-**Next:** [Run](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md) you project and see the result.
+**Next:** [Run](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md) the project to see your application in action.
