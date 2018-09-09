@@ -19,7 +19,7 @@ This documentation is created for those developers who worked with Flutter and I
 4. [Running applications](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md)
 5. [Testing and debugging](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md)
     * [Debugging Flutter UI](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#flutter-inspector)
-    * [Solving Performance Issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#timeline)
+    * [Solving performance issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#timeline)
     * [Rendering UI](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#render-tree-tab)
     * [Monitoring issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#dart-analysis-tool-window)
 ---
