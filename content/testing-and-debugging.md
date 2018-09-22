@@ -7,6 +7,20 @@ To run your application in the **Debug Mode**, click the <img src="https://githu
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_debugger.png" alt="Debugger" width="700"/>
 </p>
 
+## Analyze issues
+This tool allows to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. In the the **Dart Analysis** tool window you can:
+  * Sort the errors by severity or location.
+  * Group errors by severity.
+<p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_1.gif" alt="" width="590"/></p>
+ 
+ * Use the **Dart Problems Filter** to filter out some error messages if necessary.
+ <p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_2.gif" alt="" width="590"/></p>
+ 
+  * Determine the precise location of an issue and navigate to it.
+  * Identify the type of an issue (there can be errors, warnings, or hints).
+  * Enable the **Autoscroll to Source** feature that allows to get to the issue in a quick way.
+  * Restart the Dart Analysis Server.
+
 ## Use the Flutter Inspector
 Widgets are the core building blocks in Flutter applications, and IntelliJ IDEA has got a tool for visualizing and exploring widget trees and debugging UIs. The **Flutter Inspector** helps to manage bidirectional mapping between an active Flutter UI and the corresponding visualization of the **Widgets** tree and the **Render** tree. This tool allows you to follow this mapping into the source itself, so you can actually see where in the code (whether it is your code or the the framework code) a widget is being created or configured. The **Flutter Inspector** displays widgets that were created directly in your application in Bold, making it easier to distinguish between widgets created in the app and in the framework.
 
@@ -86,20 +100,6 @@ You can switch to the **Render Tree** tab in case if there are problems with UI 
 
 |<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_widgets-render_tree_1.png" alt="Allowed values" width="590"/>|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_widgets-render_tree_2.png" alt="Allowed values" width="590"/>|
 --- | ---
-
-## Analyze issues
-This tool allows to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. In the the **Dart Analysis** tool window you can:
-  * Sort the errors by severity or location.
-  * Group errors by severity.
-<p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_1.gif" alt="" width="590"/></p>
- 
- * Use the **Dart Problems Filter** to filter out some error messages if necessary.
- <p align="center"><img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_dart_analysis_2.gif" alt="" width="590"/></p>
- 
-  * Determine the precise location of an issue and navigate to it.
-  * Identify the type of an issue (there can be errors, warnings, or hints).
-  * Enable the **Autoscroll to Source** feature that allows to get to the issue in a quick way.
-  * Restart the Dart Analysis Server.
 
 ## Apply quick-fixes
 If the **Dart Analysis** tool window showed you a number of errors, you can use suggested quick-fixes. Place the cursor to the code fragment and press the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) (or use the intention action icon).
