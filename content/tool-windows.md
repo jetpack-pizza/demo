@@ -1,14 +1,14 @@
 # Working with Tool Windows
-IntelliJ IDEA offers Flutter- and Dart-specific tool windows that help to control the development process. Widgets are the core building blocks in Flutter (everything-is-a-widget concept), so the Flutter and Dart plugins provide developers with tools for visualizing and exploring widget trees, managing widgets, and ensuring the structure correctness. Flutter runs on Dart, and the code analysis is performed automatically, displaying the messages in a special tool window.
+IntelliJ IDEA offers Flutter- and Dart-specific tool windows that help to control the development process. Widgets are the core building blocks in Flutter (everything-is-a-widget concept), so the main function of the Flutter and Dart plugins is to provide tools for visualizing and exploring widget trees, managing widgets, and ensuring the structure correctness. Flutter runs on Dart, and the code analysis is performed automatically, displaying the messages in a special tool window.
 
 ## Flutter Outline Tool Window
-The **Flutter Outline** tool window helps to work with Flutter widgets and shows your project's widget hierarchy, so you can see the actual association between parent and child widgets, check the structure, and modify it. To open the tool, click **Flutter Outline** on the right side of the main IDE window. Alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu. 
+The **Flutter Outline** tool window helps to work with Flutter widgets and shows your project's widget hierarchy, so you can see the association between parent and child widgets, check the structure, and modify it. To open the tool, click **Flutter Outline** on the right side of the main IDE window. Alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu. 
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_outline_tool_window.png" alt="Outline Tool Window"/>
 </p>
 
 ## Flutter Inspector Tool Window
-The **Flutter Inspector** is a tool for visualizing and exploring widget trees and debugging Flutter UI. It also helps to manage bidirectional mapping between the active Flutter UI and the corresponding visualization of the widget tree and the render tree. Thus, you can follow this mapping into the source and see where in the code (whether it is your code or the framework code) a widget is being created or configured. To open the tool, click **Flutter Inspector** on the right side of the main IDE window (or choose **View | Tool Windows | Flutter Inspector** on the main menu).
+The **Flutter Inspector** is a tool for visualizing and exploring widget trees and debugging Flutter UI. It also helps to manage bidirectional mapping between the active Flutter UI and the corresponding visualization of the widget tree and the render tree. You can follow this mapping into the source and see where in the code (whether it is your code or the framework code) a widget is being created or configured. To open the tool, click **Flutter Inspector** on the right side of the main IDE window (or choose **View | Tool Windows | Flutter Inspector** on the main menu).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_inspector_tool_window.png" alt="Inspector Tool Window"/>
 </p>
@@ -27,4 +27,4 @@ This tool window is standard for IntelliJ IDEA: it displays output that has been
 
 ---
 
-**Next:** [Creating projects](https://github.com/jetpack-pizza/demo/blob/master/content/creating-projects.md).
+**Next:** Now you can proceed with [creating projects](https://github.com/jetpack-pizza/demo/blob/master/content/creating-projects.md).
