@@ -17,9 +17,9 @@ This documentation is created for those developers who worked with Flutter and I
     * [Import libraries](https://github.com/jetpack-pizza/demo/blob/master/content/working-with-source-code.md#import-libraries)
 4. [Running applications](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md)
 5. [Testing and debugging](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md)
+    * [Analyze issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#analyze-issues)
     * [Debug performance issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#debug-performance-issues)
     * [Manage rendering](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#manage-rendering)
-    * [Analyze issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#analyze-issues)
     * [Run unit tests](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#run-unit-tests)
 ---
 <p align="center">
