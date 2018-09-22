@@ -1,49 +1,30 @@
-# Tool Windows
-
-IntelliJ IDEA offers you Flutter and Dart-specific tool windows that help to control the development process. Widgets are the core 
-building blocks in Flutter (everything-is-a-widget concept), so it was important to provide developers with tools for visualizing and 
-exploring widget trees, managing widgets efficiently, and ensuring that the structure is correct. Flutter runs on Dart, so delivering the 
-proper code analysis was a crucial point as well. As a result, the code analysis is performed automatically, displaying the messages for 
-you in a special tool window.
+# Working with Tool Windows
+IntelliJ IDEA offers you Flutter- and Dart-specific tool windows that help to control the development process. Widgets are the core building blocks in Flutter (everything-is-a-widget concept), so it was necessary to provide developers with tools for visualizing and exploring widget trees, managing widgets, and ensuring the structure correctness. Flutter runs on Dart, and the code analysis is performed automatically, displaying the messages in a special tool window.
 
 ## Flutter Outline
-The **Flutter Outline** tool window helps to work with Flutter widgets and shows your project's widget hierarchy, so you can see the 
-actual association between parent and child widgets. However, you can not only check the structure, but also [modify](https://github.com/jetpack-pizza/demo/blob/master/content/working-with-source-code.md#flutter-outline) it as well. To open 
-the tool, click **Flutter Outline** on the right side of the main IDE window. Alternatively, you can choose **View | Tool Windows | 
-Flutter Outline** on the main menu. 
+The **Flutter Outline** tool window helps to work with Flutter widgets and shows your project's widget hierarchy, so you can see the actual association between parent and child widgets. However, you can not only check the structure, but also modify it as well. To open the tool, click **Flutter Outline** on the right side of the main IDE window. Alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu. 
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_outline_tool_window.png" alt="Outline Tool Window"/>
 </p>
 
 ## Flutter Inspector
-Developers working in IntelliJ IDEA are provided with the **Flutter Inspector**, a tool for visualizing and exploring widget trees, 
-which can be quite complex. This tool helps to [visualize, explore, and debug Flutter UI](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#flutter-inspector), manage bidirectional mapping between an 
-active Flutter UI and the corresponding visualization of the widget tree and the render tree. This approach allows you to follow this 
-mapping into the source itself, so you can actually see where in the code (whether it is your code or the framework code) a widget is 
-being created or configured. This way, even a huge widget tree can be handled in an elegant way: selecting a widget of your interest 
-helps both to navigate at ease and to save time. To open the tool, click **Flutter Inspector** on the right side of the main IDE window 
-(or choose **View | Tool Windows | Flutter Inspector** on the main menu).
+Developers are provided with the **Flutter Inspector**, a tool for visualizing and exploring widget trees. This tool helps to visualize, explore, and debug Flutter UI, manage bidirectional mapping between an active Flutter UI and the corresponding visualization of the widget tree and the render tree. This approach allows you to follow this mapping into the source itself, so you can actually see where in the code (whether it is your code or the framework code) a widget is being created or configured. To open the tool, click **Flutter Inspector** on the right side of the main IDE window (or choose **View | Tool Windows | Flutter Inspector** on the main menu).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_inspector_tool_window.png" alt="Inspector Tool Window"/>
 </p>
 
 ## Dart Analysis
-The **Dart Analysis** tool window allows to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. This performance is based on the **Dart Analysis Server**, a local server that is shipped as a part of the Dart SDK and that provides the essential data and functionality for the IDE: code completion, navigation, structure view, warnings, syntax highlighting and so on. Moreover, the **Dart Analysis Server** provides the plugin framework, which in its turn allows the Flutter plugin to transfer its own sets of information, including warnings, messages, and code completions. To open this tool window, click **Dart Analysis** at the bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
+The **Dart Analysis** tool window allows to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. This functionality is provided by the **Dart Analysis Server**, a local server that is shipped as a part of the Dart SDK and that is responsible for code completion, navigation, syntax highlighting, and so on. Additionally, the **Dart Analysis Server** provides the plugin framework, which allows the Flutter plugin to transfer its own sets of information, including warnings, messages, and code completions. To open this tool window, click **Dart Analysis** at the bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_dart_analysis_tool_window.png" alt="Dart Analysis Tool Window"/>
 </p>
 
 ## Run
-This tool window should be well-known by developers who work in IntelliJ IDEA: it displays output that has been generated by your 
-application. However, the Flutter plugin delivers a number of changes: you can find the **Flutter Hot Reload** and **Flutter Hot 
-Restart** buttons that have been added to this window. Also such Dart-specific tools as **Observatory** (it displays code coverage, 
-examines the heap, and provides profiling) and **Timeline** (it allows you to capture the stack snapshot) are within reach. In addition, 
-you can open the **Flutter Inspector** from the **Run** tool window as well. To view your Flutter app's output, click **Run** at the 
-bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
+This tool window is standard for IntelliJ IDEA: it displays output that has been generated by your application. However, new plugins deliver a number of changes: you can find the **Flutter Hot Reload** and **Flutter Hot Restart** buttons and Dart-specific tools such as **Observatory** (it displays code coverage, examines the heap, and provides profiling) and **Timeline** (it allows you to capture the stack snapshot) that have been added to this window. Also you can open the **Flutter Inspector** from the **Run** tool window. To view your Flutter app's output, click **Run** at the bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_run_tool_window.png" alt="Run Tool Window"/>
 </p>
 
 ---
 
-**Next:** [Create a new project](https://github.com/jetpack-pizza/demo/blob/master/content/creating-projects.md) to start the development process.
+**Next:** [Creating projects](https://github.com/jetpack-pizza/demo/blob/master/content/creating-projects.md).
