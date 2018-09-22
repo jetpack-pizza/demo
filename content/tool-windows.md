@@ -14,7 +14,7 @@ The **Flutter Inspector** is a tool for visualizing and exploring widget trees a
 </p>
 
 ## Dart Analysis Tool Window
-The **Dart Analysis** tool window allows to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. This functionality is provided by the **Dart Analysis Server**, a local server that is shipped as a part of the Dart SDK and that is responsible for code completion, navigation, syntax highlighting, etc. Additionally, the **Dart Analysis Server** provides the plugin framework, which permits the Flutter plugin to transfer its own sets of information, including warnings, messages, and code completions. To open this tool window, click **Dart Analysis** at the bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
+The **Dart Analysis** tool window allows you to monitor issues, such as potential problems and inconsistencies, that might arise during the project development. This functionality is provided by the **Dart Analysis Server**, a local server that is shipped as a part of the Dart SDK and that is responsible for code completion, navigation, syntax highlighting, etc. Additionally, the **Dart Analysis Server** provides the plugin framework, which permits the Flutter plugin to transfer its own sets of information, including warnings, messages, and code completions. To open this tool window, click **Dart Analysis** at the bottom of the main IDE window (or choose **View | Tool Windows | Dart Analysis** on the main menu).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/2_dart_analysis_tool_window.png" alt="Dart Analysis Tool Window"/>
 </p>
