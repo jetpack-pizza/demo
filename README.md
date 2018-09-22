@@ -1,6 +1,6 @@
 # Creating Flutter applications in IntelliJ IDEA
 
-This documentation is created for those developers who worked with Flutter and IntelliJ IDEA, but have not used the Flutter and Dart plugins. View the instructions on installing, configuring, and using these plugins and find out how they can speed up your development process.
+This documentation is created for those developers who have worked with Flutter and IntelliJ IDEA, but have not used the Flutter and Dart plugins. View the instructions on installing, configuring, and using these plugins and find out how they can speed up your development process.
 
 ---
 1. [Installing and configuring plugins](https://github.com/jetpack-pizza/demo/blob/master/content/install-and-set-up-plugins.md)
