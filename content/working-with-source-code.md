@@ -8,9 +8,7 @@ Widgets are the core building blocks in Flutter applications (everything-is-a-wi
 width="590"/>
 </p>
 
-**Flutter Outline** allows you to both view the structure of your application and to modify it, if necessary. When you use this tool, 
-the IDE makes sure that the structure is correct, so you can avoid typos or forgotten symbols. For instance, you can center a widget 
-using the **Flutter Outline** tool: 
+**Flutter Outline** allows you to view the structure of your application and to modify it. When you use this tool, the IDE makes sure that the structure is correct, so you can avoid typos or forgotten symbols. For instance, you can center a widget using the **Flutter Outline** tool: 
 1. Select a widget.
 2. Click the **Center widget** button on the toolbar. Note that if an action cannot be executed, the corresponding button is greyed out.
 3. Perform **Hot Reload** to see the changes.
@@ -46,12 +44,12 @@ If you need to convert ``child`` to ``children``, use the ``Alt+Enter`` (Win, Li
 </p>
 
 ## Use live templates 
-IntelliJ offers several Flutter live templates that simplify adding new widgets to your project, so you can create **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets much faster. To view the templates available out of the box press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them, if necessary.
+IntelliJ offers several Flutter live templates that simplify adding new widgets to your project, so you can create **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets much faster. To view the templates available out of the box press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_live_template.gif" alt="Flutter Live Template" width="400"/>
 </p>
 
-## Hot reload an App
+## Hot reload an app
 **Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (or use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (also you can find this icon in the **Run** tool window). Alternatively, you can press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which also results in displaying the latest changes. 
 > Note: The first loading on a physical device might take some time.
 
