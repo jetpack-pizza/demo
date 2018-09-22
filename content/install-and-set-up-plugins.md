@@ -56,4 +56,4 @@ You can modify color schemes (**Settings/Preferences dialog | Editor | Color Sch
 
 ---
 
-**Next:** While working on your Flutter application you will interact with [Tool Windows](https://github.com/jetpack-pizza/demo/blob/master/content/tool-windows.md). Some of them are standard for IntelliJ IDEA, however there are new tool windows that have been designed specifically for the Flutter and Dart plugins.
+**Next:** While working on your Flutter application you will interact with [tool windows](https://github.com/jetpack-pizza/demo/blob/master/content/tool-windows.md). Some of them are standard for IntelliJ IDEA, however there are new tool windows that have been designed specifically for the Flutter and Dart plugins.
