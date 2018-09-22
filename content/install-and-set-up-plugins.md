@@ -49,7 +49,7 @@ To modify the Dart code style according to your needs, open the **Settings/Prefe
 </p>
 
 ### Shortcuts
-Shortcuts allow to save time, so explore the **Keymap** (**Settings/Preferences dialog | Keymap**) once you have installed the new plugins. 
+Shortcuts allow you to save time, so explore the **Keymap** (**Settings/Preferences dialog | Keymap**) once you have installed the new plugins. 
 
 ### Color schemes
 You can modify color schemes if needed (**Settings/Preferences dialog | Editor | Color Scheme**).
