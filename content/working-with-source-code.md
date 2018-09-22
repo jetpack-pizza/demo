@@ -1,13 +1,8 @@
 # Working with source code
-You can use well-known features of IntelliJ IDEA when working on Flutter projects. On top of it the Dart and Flutter plugins work in 
-tandem to take care of multiple language and SDK-specific tasks, from code completion to hot reload. This collaboration and the 
-framework assistance allow to improve your productivity. Moreover, there are tools that have been designed specifically for 
-working on Dart and Flutter code.
+You can use standard features of IntelliJ IDEA when working on Flutter projects. In addition, the Dart and Flutter plugins work in tandem to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
 
-## Flutter Outline
-The core building blocks in Flutter applications are widgets (everything-is-a-widget concept), so developers work with these blocks a 
-lot. That is why it is important to deliver a powerful tool that can help to manage widgets efficiently and ensure that the structure 
-remains correct. To manage your widgets, use the **Flutter Outline** tool. To open it, click **Flutter Outline** on the right side of the main IDE window (alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu). You can center you widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform a required action, click a corresponding button on the toolbar: 
+## Use the Flutter Outline
+Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so it was important to deliver a tool that helps managing widgets and ensures the structure correctness. Click **Flutter Outline** on the right side of the main IDE window (alternatively, you can choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform a required action, click a corresponding button on the toolbar:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_flutter_outline_toolbar.png" alt="Flutter Outline Toolbar" 
 width="590"/>
@@ -27,106 +22,82 @@ using the **Flutter Outline** tool:
 >**Note:** Click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_filter.png" alt="Filter" width="16"/> 
 icon in the upper-right corner of the **Flutter Outline** tool window to enable filtering and display only widgets.
 
-## Structure View
-Another way to look at the structure of your project is to use the **Structure View**. To open it, click **Structure** on the left 
-side of the main IDE window (alternatively, you can choose **View | Tool Windows | Structure** on the main menu). This view is based 
-on the **Dart Analysis Server** and when you select a widget in the structure tree, the **Editor** will jump to the correponding lines 
-in your code.
+## Use the Structure tool view
+Another way to look at the structure of your project is to use the **Structure** tool window. To open it, click **Structure** on the left side of the main IDE window (alternatively, you can choose **View | Tool Windows | Structure** on the main menu). Select a widget in the **Structure View**, and the **Editor** jumps to the corresponding line in your code.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_structure_view.png" alt="Structure View" width="850"/>
 </p>
 
-## Widget management
-In addition, IntelliJ IDEA offers alternative widgets management opportunities: you can add padding, remove a widget, swap it with 
-its parent, wrap it with a new widget, and so on by using the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) shortcut in the **Editor**. 
-This method also allows to save your time and it makes sure that the structure of your project remains valid. For instance, you can 
-center a widget using either the **Center widget** option:
+## Manage widgets
+In addition, IntelliJ IDEA offers alternative widgets management functionalities: you can add padding, remove a widget, swap it with its parent, wrap it with a new widget, and so on by using the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) shortcuts in the **Editor**. This method also helps to save time and it makes sure that the project structure remains valid. For instance, you can center a widget using the **Center widget** option:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_center_widget_2.png" alt="Center Widget" width="400"/>
 </p>
 
-Alternatively, you can use select **Wrap with new widget** option, which allows to implement any valid widget. In this very example, 
-it is possible to use the same ``Center`` widget:
+Alternatively, you can select the **Wrap with new widget** option, which allows to implement any valid widget. In this example, it is possible to use the same ``Center`` widget:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_wrap_widget.gif" alt="Wrap With New Widget" width="500"/>
 </p>
 
-## Converting
-In case if you need to convert ``child`` to ``children``, there is a quick way to do it. Use the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` 
-(Mac OS) shortcuts to open the menu and choose the **Convert to children** option.
+## Convert components
+If you need to convert ``child`` to ``children``, use the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) shortcuts to open the menu and choose the **Convert to children** option.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_convert.png" alt="Convert" width="500"/>
 </p>
 
-## Live Templates 
-IntelliJ offers several Flutter Live Templates that simplify adding new widgets to your project, so you can create **Stateless** 
-(``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets much 
-faster. To view the templates available out of the box press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings** 
-dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them, if 
-necessary.
+## Use live templates 
+IntelliJ offers several Flutter live templates that simplify adding new widgets to your project, so you can create **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets much faster. To view the templates available out of the box press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them, if necessary.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_live_template.gif" alt="Flutter Live Template" width="400"/>
 </p>
 
-## Hot Reload
-**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (also you can find this icon in the **Run** tool window). Alternatively, you can press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which also results in displaying the latest changes. 
+## Hot reload an App
+**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (or use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (also you can find this icon in the **Run** tool window). Alternatively, you can press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which also results in displaying the latest changes. 
 > Note: The first loading on a physical device might take some time.
 
-## Reformatting your code
-You can easily reformat your code to make sure the proper Dart style is used. To do so, use the **dartfmt** command: it is possible to 
-find it using the Find Action dialog (use the ``Ctrl+Shift+A`` (Win, Linux) or ``⌘⇧A`` (Mac OS) shortcut) or choose the 
-**Reformat Code with dartfmt** option from the right-click menu.
+## Reformat the code
+You can reformat the code to make sure that the proper Dart style is used. To do so, use the **dartfmt** command: you can use the **Find Action dialog** (use the ``Ctrl+Shift+A`` (Win, Linux) or ``⌘⇧A`` (Mac OS) shortcut) or choose the **Reformat Code with dartfmt** option from the right-click menu.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_dartfmt.png" alt="Reformat Code with dartfmt" width="500"/>
 </p>
 
-## Trailing commas
-Using the trailing commas can be a good solution if your code includes multiple tree-shaped blocks. Add a trailing comma at the 
-end of parameter lists in constructions that you want to keep the format. It will help the formatter to implement the proper number 
-of line breaks for the Flutter code.
+## Add trailing commas
+If your code includes multiple tree-shaped blocks, you can use the trailing commas to help the formatter implement the proper number of line breaks for the Flutter code. To keep the format, add a trailing comma at the end of parameter lists.
 
-## Opening a module in another IDE
-If you want to open a module to modify its code in another IDE, IntelliJ IDEA offers a smooth way to do it. Find the ``android`` folder in your **Project** tool window, right-click it, then choose **Flutter | Open Android module in Android Studio** (the similar feature is available for the Xcode SDK as well).
+## Open a module in another IDE
+It is possible to open a module and modify its code in another IDE. To do so, find the ``android`` folder in your **Project** tool window, right-click it, then choose **Flutter | Open Android module in Android Studio** (the similar feature is available for the Xcode SDK as well).
 
-## Comments from the Dart Analysis server
-Curly brackets can be divided by many lines of code in your app, which makes it tricky to determine beginning and ending of a specific invocation. The IDE displays special comments denoting classes and widgets for user convenience.
+## System comments
+Curly brackets can be divided by many lines of code in your app. IntelliJ IDEA displays special comments denoting classes and widgets, which facilitates determining the beginning and ending of a specific invocation.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_comments.png" alt="System Comments" width="500"/>
 </p>
 
-## Flutter commands
-Invoking Flutter commands can be done quickly: just click the required action at the top of the ``pubspec.yaml`` window. You can 
-install referenced packages (the ``Packages get`` command), upgrade them to the latest version (the ``Packages upgrade`` command), 
-upgrade the Flutter framework itself (the ``Flutter upgrade``), and validate the installed tools and check their versions (the ``Flutter 
-doctor`` command).
+## Run Flutter commands
+To invoke Flutter commands you can click the required action at the top of the ``pubspec.yaml`` window. You can install referenced packages (the ``Packages get`` command), upgrade them to the latest version (the ``Packages upgrade`` command), upgrade the Flutter framework itself (the ``Flutter upgrade`` command), and validate the installed tools and check their versions (the ``Flutter doctor`` command).
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_packages_get.png" alt="Packages get" width="800"/>
 </p>
 
-## Packages
-There are numerous open-source packages that you can use in your projects. Thus, when you add a package name into the dependencies 
-list (``pubspec.yaml``), IntelliJ IDEA allows to pull the package into the project in an elegant way: just click **Packages get** at 
-the top of the window. The console should display the output of the following kind:
+## Add packages
+You can use open-source packages in your projects. When you add a package name into the dependencies list (``pubspec.yaml``), click **Packages get** at the top of the window to pull the package into the project. The console should display the output of the following kind:
 ```
 Running "flutter packages get" in demo_project... 
 Process finished with exit code 0
 ```
 
-## Importing libraries
-In case if a Dart library that is required in your project has not been imported yet, the IDE can perform this for you. Press 
-``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
+## Import libraries
+In case if a Dart library that is required in your project has not been imported yet, you can press ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_import_library.png" alt="Import Library" width="500"/>
 </p>
 
-## Postfix Completion
-The Dart plugin comes with a number of **Postfix Completion** templates, so make sure to take a look at them. To see the list of 
-templates press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings** dialog and go to **Editor | General | 
-Postfix Completion**.
+## Use postfix completion templates
+The Dart plugin comes with a number of postfix completion templates. To see them, open the **Settings/Preferences** dialog and go to **Editor | General | Postfix Completion**.  
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_postfix_completion.png" alt="Postfix Completion" width="700"/>
 </p>
 
 ---
 
-**Next:** [Run](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md) the project to see your application in action.
+**Next:** IntelliJ IDEA offers several modes for [running applications](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md).
