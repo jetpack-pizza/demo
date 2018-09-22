@@ -17,10 +17,10 @@ This documentation is created for those developers who worked with Flutter and I
     * [Import libraries](https://github.com/jetpack-pizza/demo/blob/master/content/working-with-source-code.md#import-libraries)
 4. [Running applications](https://github.com/jetpack-pizza/demo/blob/master/content/running-applications.md)
 5. [Testing and debugging](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md)
-    * [Debugging Flutter UI](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#flutter-inspector)
-    * [Solving performance issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#timeline)
-    * [Rendering UI](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#render-tree-tab)
-    * [Monitoring issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#dart-analysis-tool-window)
+    * [Debug performance issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#debug-performance-issues)
+    * [Manage rendering](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#manage-rendering)
+    * [Analyze issues](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#analyze-issues)
+    * [Run unit tests](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md#run-unit-tests)
 ---
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/dart.png" alt="Dart" width="70"/>
