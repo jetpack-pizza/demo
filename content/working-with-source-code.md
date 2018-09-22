@@ -22,7 +22,7 @@ using the **Flutter Outline** tool:
 >**Note:** Click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_filter.png" alt="Filter" width="16"/> 
 icon in the upper-right corner of the **Flutter Outline** tool window to enable filtering and display only widgets.
 
-## Use the Structure tool view
+## Use the Structure tool window
 Another way to look at the structure of your project is to use the **Structure** tool window. To open it, click **Structure** on the left side of the main IDE window (alternatively, you can choose **View | Tool Windows | Structure** on the main menu). Select a widget in the **Structure View**, and the **Editor** jumps to the corresponding line in your code.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_structure_view.png" alt="Structure View" width="850"/>
