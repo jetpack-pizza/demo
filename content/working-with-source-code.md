@@ -2,7 +2,7 @@
 You can use standard features of IntelliJ IDEA when working on Flutter projects. In addition, the Dart and Flutter plugins work in conjunctions to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
 
 ## Use the Flutter Outline
-Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so it was important to deliver a tool that helps to manage widgets and ensures the structure correctness. Click **Flutter Outline** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform the required action, click the corresponding button on the toolbar:
+Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so it was important to deliver a tool that helps to manage widgets and ensures the structure correctness. Click **Flutter Outline** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows you to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform the required action, click the corresponding button on the toolbar:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_flutter_outline_toolbar.png" alt="Flutter Outline Toolbar" 
 width="590"/>
@@ -32,7 +32,7 @@ IntelliJ IDEA offers alternative widgets management functionalities: you can add
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_center_widget_2.png" alt="Center Widget" width="400"/>
 </p>
 
-Alternatively, you can select the **Wrap with new widget** option, which allows to implement any valid widget. In this example, it is possible to use the same ``Center`` widget:
+Alternatively, you can select the **Wrap with new widget** option, which allows you to implement any valid widget. In this example, it is possible to use the same ``Center`` widget:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_wrap_widget.gif" alt="Wrap With New Widget" width="500"/>
 </p>
