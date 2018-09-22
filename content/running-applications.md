@@ -34,4 +34,4 @@ Action | Description
 
 ---
 
-**Next:** Flutter and Dart plugins offer a number of [testing and debugging tools](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md) that will help you improve your application.  
+**Next:** Flutter and Dart plugins offer a number of tools for [testing and debugging](https://github.com/jetpack-pizza/demo/blob/master/content/testing-and-debugging.md).  
