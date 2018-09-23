@@ -1,14 +1,14 @@
 # Working with source code
-You can use standard features of IntelliJ IDEA when working on Flutter projects. In addition, the Dart and Flutter plugins work in conjunctions to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
+You can use standard features of IntelliJ IDEA when working on Flutter projects. In addition, the Dart and Flutter plugins work in conjunction to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
 
 ## Use the Flutter Outline
-Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so it was important to deliver a tool that helps to manage widgets and ensures the structure correctness. Click **Flutter Outline** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows you to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform the required action, click the corresponding button on the toolbar:
+Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so a tool for managing widgets and ensuring the structure correctness has been created. Click **Flutter Outline** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows you to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform the required action, click the corresponding button on the toolbar:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_flutter_outline_toolbar.png" alt="Flutter Outline Toolbar" 
 width="590"/>
 </p>
 
-**Flutter Outline** permits to view the structure of your application and modify it. When you use this tool, the IDE makes sure that the structure is correct, so you can avoid typos or omitted symbols. For instance, you can center a widget using the **Flutter Outline** tool: 
+**Flutter Outline** permits to view the structure of your application and modify it. When you use this tool, the IDE makes sure that the structure is correct, so you can avoid typos or omitted symbols. For instance, you can center a widget by using the **Flutter Outline** tool: 
 1. Select a widget.
 2. Click the **Center widget** button on the toolbar. Note that if an action cannot be executed, the corresponding button is greyed out.
 3. Perform **Hot Reload** to see the changes.
@@ -21,7 +21,7 @@ width="590"/>
 icon in the upper-right corner of the **Flutter Outline** tool window to enable filtering and display only widgets.
 
 ## Use the Structure tool window
-Another way to look at the structure of your project is to use the **Structure** tool window. To open it, click **Structure** on the left side of the main IDE window (alternatively, choose **View | Tool Windows | Structure** on the main menu). Select a widget in the **Structure View**, and the **Editor** jumps to the corresponding line in your code.
+Another way to look at the structure of your project is to use the **Structure** tool window. To open it, click **Structure** on the left side of the main IDE window (alternatively, choose **View | Tool Windows | Structure** on the main menu). When you select a widget in the **Structure View**, the **Editor** jumps to the corresponding line in your code.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_structure_view.png" alt="Structure View" width="850"/>
 </p>
@@ -44,14 +44,14 @@ If you need to convert ``child`` to ``children``, use the ``Alt+Enter`` (Win, Li
 </p>
 
 ## Use live templates 
-IntelliJ offers several Flutter live templates that simplify adding new widgets to your project. For instance, it boosts creating **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets. To view the templates available out of the box, press ``Ctrl+Alt+S`` (Win, Linux) or ``⌘,`` (Mac OS) to open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them.
+IntelliJ offers several Flutter live templates that simplify adding new widgets to your project. For instance, it boosts creating **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets. To view the templates available out of the box, open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_live_template.gif" alt="Flutter Live Template" width="400"/>
 </p>
 
 ## Hot reload an app
-**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (or use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (also you can find this icon in the **Run** tool window). Alternatively, press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which results in displaying the latest changes as well. 
-> Note: The first loading on a physical device might take some time.
+**Hot reload** is a feature that injects updated source code files into the running VM (or a connected device). To initiate hot reload click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_hot_reload.png" alt="Hot Reload" width="16"/> icon (or use the ``Ctrl+Back Slash`` (Win, Linux) or ``⌘\`` (Mac OS) shortcut) in the upper-right corner of the main IDE window (you can also find this icon in the **Run** tool window). Alternatively, press ``Ctrl+S`` (``⌘S``) to **Save All** changes, which results in displaying the latest changes as well. 
+> Note: The first loading on a physical device can take some time.
 
 ## Reformat the code
 You can reformat the code to make sure that the proper Dart style is used. To do so, use the **dartfmt** command: use the **Find Action dialog** (use the ``Ctrl+Shift+A`` (Win, Linux) or ``⌘⇧A`` (Mac OS) shortcut) or choose the **Reformat Code with dartfmt** option from the right-click menu.
@@ -60,7 +60,7 @@ You can reformat the code to make sure that the proper Dart style is used. To do
 </p>
 
 ## Add trailing commas
-If your code includes multiple tree-shaped blocks, you can use the trailing commas to help the formatter implement the proper number of line breaks for the Flutter code. To keep the format, add trailing commas at the end of parameter lists.
+If your code includes multiple tree-shaped blocks, you can use trailing commas to help the formatter implement the proper number of line breaks for the Flutter code. To keep the format, add trailing commas at the end of parameter lists.
 
 ## Open a module in another IDE
 It is possible to open a module and modify its code in another IDE. To do so, find the ``android`` folder in your **Project** tool window, right-click it, and choose **Flutter | Open Android module in Android Studio** (the similar feature is available for the Xcode SDK as well).
@@ -85,7 +85,7 @@ Process finished with exit code 0
 ```
 
 ## Import libraries
-In case a Dart library required in your project has not been imported, press ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
+In case the required in your project Dart library has not been imported, press ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_import_library.png" alt="Import Library" width="500"/>
 </p>
