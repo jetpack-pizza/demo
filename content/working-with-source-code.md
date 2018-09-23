@@ -1,5 +1,5 @@
 # Working with source code
-You can use standard features of IntelliJ IDEA when working on Flutter projects. In addition, the Dart and Flutter plugins work in conjunction to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
+You can use standard features of IntelliJ IDEA while working on Flutter projects. In addition, the Dart and Flutter plugins work in conjunction to perform language and SDK-specific tasks, from code completion to hot reload. IntelliJ IDEA offers tools that have been designed specifically for working on Dart and Flutter code.
 
 ## Use the Flutter Outline
 Widgets are the core building blocks in Flutter applications (everything-is-a-widget concept), so a tool for managing widgets and ensuring the structure correctness has been created. Click **Flutter Outline** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Outline** on the main menu) to open the **Flutter Outline** and manage your widgets. The **Flutter Outline** allows you to center widgets, add padding, wrap widgets with columns and rows, extract methods, move widgets up and down, and remove them. To perform the required action, click the corresponding button on the toolbar:
@@ -44,7 +44,7 @@ If you need to convert ``child`` to ``children``, use the ``Alt+Enter`` (Win, Li
 </p>
 
 ## Use live templates 
-IntelliJ offers several Flutter live templates that simplify adding new widgets to your project. For instance, it boosts creating **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets. To view the templates available out of the box, open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them.
+IntelliJ offers several Flutter live templates that simplify adding new widgets to your project. For instance, it speeds up creating **Stateless** (``stless``), **Stateful** (``stful``), **Stateful with AnimationController** (``stanim``), and **Inherited** (``inh``) widgets. To view the templates available out of the box, open the **Settings/Preferences** dialog and go to **Editor | Live Templates**. Expand the **Flutter** or **Dart** sections to see the samples and modify them.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_live_template.gif" alt="Flutter Live Template" width="400"/>
 </p>
@@ -85,7 +85,7 @@ Process finished with exit code 0
 ```
 
 ## Import libraries
-In case the required in your project Dart library has not been imported, press ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
+In case the Dart library required in your project has not been imported, press ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) and select the library you need.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/4_import_library.png" alt="Import Library" width="500"/>
 </p>
