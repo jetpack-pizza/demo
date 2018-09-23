@@ -24,17 +24,17 @@ This tool allows you to monitor issues, such as potential problems and inconsist
 ## Use the Flutter Inspector
 Widgets are the core building blocks in Flutter applications, and IntelliJ IDEA has got a tool for visualizing and exploring widget trees and debugging UIs. The **Flutter Inspector** helps to manage bidirectional mapping between the active Flutter UI and the corresponding visualization of the **Widgets** tree and the **Render** tree. Thus, you can follow this mapping into the source and see where in the code (whether it is your code or the the framework code) a widget is being created or configured. The **Flutter Inspector** displays widgets that were created directly in your application in Bold, making it easier to distinguish between widgets created in the app and in the framework.
 
-To inspect your application, check the layouts, widgets, and performance, open the tool by clicking **Flutter Inspector** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Inspector** or find the icon in the **Run** tool window). Use the toolbar to interact with the elements of the app and to switch between the Inspector tabs:
+To inspect your application, to check the layouts, widgets, and performance, open the tool by clicking **Flutter Inspector** on the right side of the main IDE window (alternatively, choose **View | Tool Windows | Flutter Inspector** or find the icon in the **Run** tool window). Use the toolbar to interact with the elements of the app and to switch between the Inspector tabs:
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_inspector_toolbar.png" width="600" alt="Inspector Toolbar"/>
 </p>
 
 ### Enable the Select widget mode
 To activate this mode, click the <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_select_widget_mode.png" alt="Select Widget Mode" width="16"/> icon. Now you can:
-- Select a widget that you need, so while interacting with your device you can see which widget is responsible for a specific position on the screen. 
+- Select the widget that you need, so while interacting with your device you can see which widget is responsible for the specific position on the screen. 
 - See the tree of widgets, the widget's position, and its properties.
-- Get to the source code of a particular widget: select a widget, right-click it, and choose **Jump to Source** from the menu. Then the **Editor** will show you the code section where this widget is created.
->**Tip:** Hover over a property value to see the list of allowed values. When you perform a hot reload, the **Flutter Inspector** will update the widget properties accordingly.
+- Get to the source code of a particular widget: select a widget, right-click it, and choose **Jump to Source** from the menu. Then the **Editor** shows you the code section where this widget is created.
+>**Tip:** Hover over a property value to see the list of allowed values. When you hot reload the application, the **Flutter Inspector** will update the widget properties accordingly.
 
 |<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values.png" alt="Allowed values" width=""/>|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values_2.png" alt="Allowed values" width="590"/>|
 --- | ---
@@ -68,7 +68,7 @@ The **Observatory** is a debugging and profiling tool for profiling, examining t
 </p>
 
 ---
-To see the rest of features provided by the **Flutter Inspector**, click the gear-wheel icon in the upper-right corner of the tool window.
+To see the rest of the features provided by the **Flutter Inspector**, click the gear-wheel icon in the upper-right corner of the tool window.
 
 ### Enable baseline painting
 Enable this feature to see the baseline paintings in your Flutter application: each RenderBox will paint a line at its baseline.
@@ -102,7 +102,7 @@ You can switch to the **Render Tree** tab in case there are problems with UI ele
 --- | ---
 
 ## Apply quick-fixes
-If the **Dart Analysis** tool window shows you a number of errors, you can use suggested quick-fixes. Place the cursor to the code fragment and press the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) (or use the intention action icon).
+If the **Dart Analysis** tool window shows you a number of errors, you can use the suggested quick-fixes. Place the cursor to the code fragment and press the ``Alt+Enter`` (Win, Linux) or ``⌘↩`` (Mac OS) (or use the intention action icon).
 
 ## Run unit tests
 You can create and run unit tests for your Flutter applications:
