@@ -34,7 +34,7 @@ To activate this mode, click the <img src="https://github.com/jetpack-pizza/demo
 - Select the widget that you need, so while interacting with your device you can see which widget is responsible for the specific position on the screen. 
 - See the tree of widgets, the widget's position, and its properties.
 - Get to the source code of a particular widget: select a widget, right-click it, and choose **Jump to Source** from the menu. Then the **Editor** shows you the code section where this widget is created.
->**Tip:** Hover over a property value to see the list of allowed values. When you hot reload the application, the **Flutter Inspector** will update the widget properties accordingly.
+>**Tip:** Hover over a property value to see the list of allowed values. When you hot reload the application, the **Flutter Inspector** updates the widget properties accordingly.
 
 |<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values.png" alt="Allowed values" width=""/>|<img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_allowed_values_2.png" alt="Allowed values" width="590"/>|
 --- | ---
@@ -71,7 +71,7 @@ The **Observatory** is a debugging and profiling tool for profiling, examining t
 To see the rest of the features provided by the **Flutter Inspector**, click the gear-wheel icon in the upper-right corner of the tool window.
 
 ### Enable baseline painting
-Enable this feature to see the baseline paintings in your Flutter application: each RenderBox will paint a line at its baseline.
+Enable this feature to see the baseline paintings in your Flutter application: each RenderBox paints a line at its baseline.
 <p align="center">
 <img src="https://github.com/jetpack-pizza/demo/blob/master/img/6_baseline.png" width="500"/>
 </p>
