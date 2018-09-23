@@ -11,7 +11,7 @@ To start working on a Flutter project you can either create a new project, or cr
 7. Type your organization domain.
 8. Select Android and iOS languages that should be used in your cross-platform application.
 9. Select the **Create project offline** checkbox in case the network connection is slow or you need to work offline.
-10. In addition, you can expand the **More Settings** section at the bottom of the window to adjust module-related settings, such as module name, content root and module file parent directory.
+10. In addition, you can expand the **More Settings** section at the bottom of the window to adjust module-related settings, such as module name, content root, and module file parent directory.
 11. Click **Finish**.
 
 Your new project will open the Flutter plugin application template first.
